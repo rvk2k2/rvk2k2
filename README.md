@@ -1,4 +1,88 @@
 
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .terminal {
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+        fill: #00ff00;
+        background: #000;
+      }
+      .cursor {
+        fill: #00ff00;
+        animation: blink 1s infinite;
+      }
+      @keyframes blink {
+        0%, 50% { opacity: 1; }
+        51%, 100% { opacity: 0; }
+      }
+      .line1 { animation: typewriter1 2s steps(40, end) 0s 1 normal both; }
+      .line2 { animation: typewriter2 2s steps(40, end) 2.5s 1 normal both; }
+      .progress-bg { fill: #333; }
+      .progress-bar { 
+        fill: #00ff00;
+        animation: progress 3s ease-in-out 5s 1 normal both;
+      }
+      .connected { animation: fadeIn 1s ease-in 8.5s 1 normal both; }
+      .welcome { animation: fadeIn 1s ease-in 9.5s 1 normal both; }
+      
+      @keyframes typewriter1 {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+      @keyframes typewriter2 {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+      @keyframes progress {
+        from { width: 0; }
+        to { width: 320px; }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+    </style>
+  </defs>
+  
+  <!-- Terminal background -->
+  <rect width="600" height="200" fill="#0d1117" rx="8"/>
+  
+  <!-- Terminal header -->
+  <rect width="600" height="30" fill="#21262d" rx="8"/>
+  <circle cx="20" cy="15" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="15" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="15" r="6" fill="#28ca42"/>
+  
+  <!-- Line 1: Command -->
+  <g class="terminal">
+    <text x="20" y="60" class="line1">
+      <tspan>$ ./hello_visitor.sh</tspan>
+    </text>
+  </g>
+  
+  <!-- Line 2: Initializing -->
+  <g class="terminal">
+    <text x="20" y="85" class="line2">
+      <tspan>Initializing MERN Stack Protocol...</tspan>
+    </text>
+  </g>
+  
+  <!-- Progress bar background -->
+  <rect x="20" y="95" width="320" height="20" class="progress-bg" rx="10"/>
+  
+  <!-- Progress bar fill -->
+  <rect x="20" y="95" width="0" height="20" class="progress-bar" rx="10"/>
+  
+  <!-- 100% text -->
+  <text x="350" y="108" class="terminal connected">100%</text>
+  
+  <!-- Connected message -->
+  <text x="20" y="130" class="terminal connected">Connected ✅</text>
+  
+  <!-- Welcome message -->
+  <text x="20" y="155" class="terminal welcome">Welcome to my codebase 👨‍💻</text>
+</svg>
 
 ## 🔥 About Me
 
