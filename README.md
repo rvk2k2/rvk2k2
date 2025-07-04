@@ -12,7 +12,6 @@
 - 📚 Learning: Advanced React Patterns & System Design
 - 💬 Ask me about: Web Development, JavaScript, Node.js, React
 - ⚡ Fun fact: I debug with console.log() and I'm proud of it! 🐛
-
 </td><td>
 
 ```javascript
@@ -54,15 +53,13 @@ const developer = {
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-## 📊 GitHub Stats
-
 <div align="center">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=rvk2k2&show_icons=true&theme=radical&hide_border=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rvk2k2&layout=compact&theme=radical&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rvk2k2&show_icons=true&theme=radical&hide_border=true&count_private=true&hide_title=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rvk2k2&layout=compact&theme=radical&hide_border=true&hide_title=true"/>
 </div>
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rvk2k2&theme=radical&hide_border=true"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rvk2k2&theme=radical&hide_border=true&hide_title=true"/>
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -70,7 +67,8 @@ const developer = {
 ## 📈 Activity Graph
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rvk2k2&theme=redical&hide_border=true"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rvk2k2&theme=redical&hide_border=true"/>
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
